@@ -18,6 +18,7 @@ CMakeUserPresets.json
 /python/*.so
 /python/*.pyd
 /python/*.pdb
+/python/*.ilk
 /python/*.dylib
 /python/wheelhouse
 /python/hyperon/_version.py
