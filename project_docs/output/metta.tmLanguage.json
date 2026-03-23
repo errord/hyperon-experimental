@@ -1,0 +1,79 @@
+{
+  "name": "metta",
+  "scopeName": "source.metta",
+  "fileTypes": [
+    "metta"
+  ],
+  "patterns": [
+    {
+      "name": "comment.line.semicolon.metta",
+      "match": ";.*$"
+    },
+    {
+      "name": "string.quoted.double.metta",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "match": "\\\\.",
+          "name": "constant.character.escape.metta"
+        }
+      ]
+    },
+    {
+      "name": "string.quoted.single.metta",
+      "begin": "'",
+      "end": "'",
+      "patterns": [
+        {
+          "match": "\\\\.",
+          "name": "constant.character.escape.metta"
+        }
+      ]
+    },
+    {
+      "name": "constant.language.boolean.metta",
+      "match": "\\b(True|False)\\b"
+    },
+    {
+      "name": "constant.numeric.metta",
+      "match": "\\b-?(?:0x[0-9A-Fa-f]+|\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\b"
+    },
+    {
+      "name": "variable.metta",
+      "match": "\\$[A-Za-z_][\\w-]*"
+    },
+    {
+      "name": "keyword.control.execution.metta",
+      "match": "^\\s*!"
+    },
+    {
+      "name": "keyword.operator.arrow.metta",
+      "match": "->"
+    },
+    {
+      "name": "keyword.operator.type.metta",
+      "match": ":<"
+    },
+    {
+      "name": "keyword.operator.special.metta",
+      "match": "[:=]"
+    },
+    {
+      "name": "support.function.builtin.metta",
+      "match": "\\b(?:eval|get-type|match|case|switch|if|chain|import|include|pragma|assertEqual|assertAlphaEqual|print|println|trace|error|return|catch|function|lambda|let|quote|get-doc|register-doc|get-docs|min-atom|get-state|change-state|new-state|ground|njit|quote-args|switch-minimal|switch-pair|switch-internal|collapse|superpose|get-atom-type|check-type)\\b"
+    },
+    {
+      "name": "support.function.stdlib.metta",
+      "match": "\\b(?:add|sub|mul|div|mod|lt|gt|leq|geq|and|or|not|is-error|is-empty|size|car|cdr|cons|if-equal|if-error|unique|union|intersection|add-atom|remove-atom|replace-atom|query|space)\\b"
+    },
+    {
+      "name": "entity.name.type.metta",
+      "match": "\\b(?:Atom|Bool|Number|String|Error|Expression|Grounded|Type|Undefined|Any)\\b"
+    },
+    {
+      "name": "meta.brace.round.metta",
+      "match": "[()]"
+    }
+  ]
+}

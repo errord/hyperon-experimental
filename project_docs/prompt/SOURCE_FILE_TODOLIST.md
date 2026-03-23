@@ -42,57 +42,57 @@
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R01 | [ ] | `hyperon-common/src/lib.rs` | CachingMapper，crate 入口 | |
-| R02 | [ ] | `hyperon-common/src/collections.rs` | Equality trait，ListMap，VecDisplay | |
-| R03 | [ ] | `hyperon-common/src/unique_string.rs` | UniqueString 字符串驻留 | |
-| R04 | [ ] | `hyperon-common/src/immutable_string.rs` | ImmutableString 不可变字符串 | |
-| R05 | [ ] | `hyperon-common/src/flex_ref.rs` | FlexRef 统一借用 | |
-| R06 | [ ] | `hyperon-common/src/reformove.rs` | RefOrMove 参数类型 | |
-| R07 | [ ] | `hyperon-common/src/holeyvec.rs` | HoleyVec 稀疏向量 | |
-| R08 | [ ] | `hyperon-common/src/shared.rs` | LockBorrow 统一借用接口 | |
-| R09 | [ ] | `hyperon-common/src/multitrie.rs` | MultiTrie 多值Trie树 | |
-| R10 | [ ] | `hyperon-common/src/owned_or_borrowed.rs` | OwnedOrBorrowed 枚举 | |
-| R11 | [ ] | `hyperon-common/src/vecondemand.rs` | VecOnDemand 延迟向量 | |
-| R12 | [ ] | `hyperon-common/src/assert.rs` | 测试辅助：无序向量比较 | |
+| R01 | [x] | `hyperon-common/src/lib.rs` | CachingMapper，crate 入口 | 2026-03-23 |
+| R02 | [x] | `hyperon-common/src/collections.rs` | Equality trait，ListMap，VecDisplay | 2026-03-23 |
+| R03 | [x] | `hyperon-common/src/unique_string.rs` | UniqueString 字符串驻留 | 2026-03-23 |
+| R04 | [x] | `hyperon-common/src/immutable_string.rs` | ImmutableString 不可变字符串 | 2026-03-23 |
+| R05 | [x] | `hyperon-common/src/flex_ref.rs` | FlexRef 统一借用 | 2026-03-23 |
+| R06 | [x] | `hyperon-common/src/reformove.rs` | RefOrMove 参数类型 | 2026-03-23 |
+| R07 | [x] | `hyperon-common/src/holeyvec.rs` | HoleyVec 稀疏向量 | 2026-03-23 |
+| R08 | [x] | `hyperon-common/src/shared.rs` | LockBorrow 统一借用接口 | 2026-03-23 |
+| R09 | [x] | `hyperon-common/src/multitrie.rs` | MultiTrie 多值Trie树 | 2026-03-23 |
+| R10 | [x] | `hyperon-common/src/owned_or_borrowed.rs` | OwnedOrBorrowed 枚举 | 2026-03-23 |
+| R11 | [x] | `hyperon-common/src/vecondemand.rs` | VecOnDemand 延迟向量 | 2026-03-23 |
+| R12 | [x] | `hyperon-common/src/assert.rs` | 测试辅助：无序向量比较 | 2026-03-23 |
 
-> **hyperon-common 进度：0/12**
+> **hyperon-common 进度：12/12**
 
 ### 1.2 hyperon-atom（原子类型与模式匹配，10 个文件）
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R13 | [ ] | `hyperon-atom/src/lib.rs` | **Atom ADT 核心定义**，Grounded trait 体系 | |
-| R14 | [ ] | `hyperon-atom/src/matcher.rs` | **模式匹配/合一引擎**，Bindings/BindingsSet | |
-| R15 | [ ] | `hyperon-atom/src/iter.rs` | Atom 深度优先迭代器 | |
-| R16 | [ ] | `hyperon-atom/src/subexpr.rs` | 子表达式遍历，WalkStrategy | |
-| R17 | [ ] | `hyperon-atom/src/serial.rs` | Serializer trait，ConvertingSerializer | |
-| R18 | [ ] | `hyperon-atom/src/gnd/mod.rs` | GroundedFunction 包装 | |
-| R19 | [ ] | `hyperon-atom/src/gnd/number.rs` | Number 类型（Integer/Float） | |
-| R20 | [ ] | `hyperon-atom/src/gnd/str.rs` | Str 字符串类型 | |
-| R21 | [ ] | `hyperon-atom/src/gnd/bool.rs` | Bool 类型 | |
-| R22 | [ ] | `hyperon-atom/tests/macros.rs` | 宏测试 | |
+| R13 | [x] | `hyperon-atom/src/lib.rs` | **Atom ADT 核心定义**，Grounded trait 体系 | 2026-03-23 |
+| R14 | [x] | `hyperon-atom/src/matcher.rs` | **模式匹配/合一引擎**，Bindings/BindingsSet | 2026-03-23 |
+| R15 | [x] | `hyperon-atom/src/iter.rs` | Atom 深度优先迭代器 | 2026-03-23 |
+| R16 | [x] | `hyperon-atom/src/subexpr.rs` | 子表达式遍历，WalkStrategy | 2026-03-23 |
+| R17 | [x] | `hyperon-atom/src/serial.rs` | Serializer trait，ConvertingSerializer | 2026-03-23 |
+| R18 | [x] | `hyperon-atom/src/gnd/mod.rs` | GroundedFunction 包装 | 2026-03-23 |
+| R19 | [x] | `hyperon-atom/src/gnd/number.rs` | Number 类型（Integer/Float） | 2026-03-23 |
+| R20 | [x] | `hyperon-atom/src/gnd/str.rs` | Str 字符串类型 | 2026-03-23 |
+| R21 | [x] | `hyperon-atom/src/gnd/bool.rs` | Bool 类型 | 2026-03-23 |
+| R22 | [x] | `hyperon-atom/tests/macros.rs` | 宏测试 | 2026-03-23 |
 
-> **hyperon-atom 进度：0/10**
+> **hyperon-atom 进度：10/10**
 
 ### 1.3 hyperon-space（空间抽象与索引，5 个文件）
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R23 | [ ] | `hyperon-space/src/lib.rs` | **Space/SpaceMut/DynSpace trait**，观察者 | |
-| R24 | [ ] | `hyperon-space/src/index/mod.rs` | AtomIndex Trie 索引 | |
-| R25 | [ ] | `hyperon-space/src/index/trie.rs` | AtomTrie 内部 Trie 节点 | |
-| R26 | [ ] | `hyperon-space/src/index/storage.rs` | AtomStorage bimap 存储 | |
-| R27 | [ ] | `hyperon-space/benches/atom_index.rs` | AtomIndex 基准测试 | |
+| R23 | [x] | `hyperon-space/src/lib.rs` | **Space/SpaceMut/DynSpace trait**，观察者 | 2026-03-23 |
+| R24 | [x] | `hyperon-space/src/index/mod.rs` | AtomIndex Trie 索引 | 2026-03-23 |
+| R25 | [x] | `hyperon-space/src/index/trie.rs` | AtomTrie 内部 Trie 节点 | 2026-03-23 |
+| R26 | [x] | `hyperon-space/src/index/storage.rs` | AtomStorage bimap 存储 | 2026-03-23 |
+| R27 | [x] | `hyperon-space/benches/atom_index.rs` | AtomIndex 基准测试 | 2026-03-23 |
 
-> **hyperon-space 进度：0/5**
+> **hyperon-space 进度：5/5**
 
 ### 1.4 hyperon-macros（过程宏，1 个文件）
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R28 | [ ] | `hyperon-macros/src/lib.rs` | metta!/metta_const! 过程宏 | |
+| R28 | [x] | `hyperon-macros/src/lib.rs` | metta!/metta_const! 过程宏 | 2026-03-23 |
 
-> **hyperon-macros 进度：0/1**
+> **hyperon-macros 进度：1/1**
 
 ### 1.5 hyperon lib — MeTTa 核心（34 个文件）
 
@@ -100,121 +100,121 @@
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R29 | [ ] | `lib/src/lib.rs` | crate 入口，re-export | |
-| R30 | [ ] | `lib/src/space/mod.rs` | space 模块入口 | |
-| R31 | [ ] | `lib/src/space/grounding/mod.rs` | **GroundingSpace** 内存空间实现 | |
-| R32 | [ ] | `lib/src/space/module.rs` | **ModuleSpace** 复合空间 | |
+| R29 | [x] | `lib/src/lib.rs` | crate 入口，re-export | 2026-03-23 |
+| R30 | [x] | `lib/src/space/mod.rs` | space 模块入口 | 2026-03-23 |
+| R31 | [x] | `lib/src/space/grounding/mod.rs` | **GroundingSpace** 内存空间实现 | 2026-03-23 |
+| R32 | [x] | `lib/src/space/module.rs` | **ModuleSpace** 复合空间 | 2026-03-23 |
 
 #### 1.5.2 MeTTa 解释器核心
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R33 | [ ] | `lib/src/metta/mod.rs` | MeTTa 常量定义（符号/类型/错误） | |
-| R34 | [ ] | `lib/src/metta/interpreter.rs` | **解释器归约引擎**（~2170行，最核心） | |
-| R35 | [ ] | `lib/src/metta/types.rs` | **类型系统**（运行时类型检查） | |
-| R36 | [ ] | `lib/src/metta/text.rs` | **S-表达式解析器**（Tokenizer+SExprParser） | |
+| R33 | [x] | `lib/src/metta/mod.rs` | MeTTa 常量定义（符号/类型/错误） | 2026-03-23 |
+| R34 | [x] | `lib/src/metta/interpreter.rs` | **解释器归约引擎**（~2170行，最核心） | 2026-03-23 |
+| R35 | [x] | `lib/src/metta/types.rs` | **类型系统**（运行时类型检查） | 2026-03-23 |
+| R36 | [x] | `lib/src/metta/text.rs` | **S-表达式解析器**（Tokenizer+SExprParser） | 2026-03-23 |
 
 #### 1.5.3 Runner 系统
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R37 | [ ] | `lib/src/metta/runner/mod.rs` | **Metta Runner** 核心（~1470行） | |
-| R38 | [ ] | `lib/src/metta/runner/environment.rs` | Environment 环境配置 | |
+| R37 | [x] | `lib/src/metta/runner/mod.rs` | **Metta Runner** 核心（~1470行） | 2026-03-23 |
+| R38 | [x] | `lib/src/metta/runner/environment.rs` | Environment 环境配置 | 2026-03-23 |
 
 #### 1.5.4 模块系统
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R39 | [ ] | `lib/src/metta/runner/modules/mod.rs` | MettaMod，ModuleLoader trait | |
-| R40 | [ ] | `lib/src/metta/runner/modules/mod_names.rs` | 模块名树 ModNameNode | |
+| R39 | [x] | `lib/src/metta/runner/modules/mod.rs` | MettaMod，ModuleLoader trait | 2026-03-23 |
+| R40 | [x] | `lib/src/metta/runner/modules/mod_names.rs` | 模块名树 ModNameNode | 2026-03-23 |
 
 #### 1.5.5 标准库 Rust 实现
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R41 | [ ] | `lib/src/metta/runner/stdlib/mod.rs` | stdlib 入口，interpret 辅助，token 注册 | |
-| R42 | [ ] | `lib/src/metta/runner/stdlib/core.rs` | 核心操作（pragma/match/sealed/equal/...） | |
-| R43 | [ ] | `lib/src/metta/runner/stdlib/atom.rs` | 原子操作（get-type/unique/union/...） | |
-| R44 | [ ] | `lib/src/metta/runner/stdlib/arithmetics.rs` | 算术运算（+/-/*/比较/布尔） | |
-| R45 | [ ] | `lib/src/metta/runner/stdlib/math.rs` | 数学函数（三角/对数/幂/取整） | |
-| R46 | [ ] | `lib/src/metta/runner/stdlib/space.rs` | 空间/状态操作（new-space/StateAtom/...） | |
-| R47 | [ ] | `lib/src/metta/runner/stdlib/string.rs` | 字符串操作（println!/format-args/...） | |
-| R48 | [ ] | `lib/src/metta/runner/stdlib/debug.rs` | 调试/测试（trace!/assertEqual/...） | |
-| R49 | [ ] | `lib/src/metta/runner/stdlib/module.rs` | 模块操作（import!） | |
-| R50 | [ ] | `lib/src/metta/runner/stdlib/package.rs` | 包管理操作（register-module!/git-module!） | |
+| R41 | [x] | `lib/src/metta/runner/stdlib/mod.rs` | stdlib 入口，interpret 辅助，token 注册 | 2026-03-23 |
+| R42 | [x] | `lib/src/metta/runner/stdlib/core.rs` | 核心操作（pragma/match/sealed/equal/...） | 2026-03-23 |
+| R43 | [x] | `lib/src/metta/runner/stdlib/atom.rs` | 原子操作（get-type/unique/union/...） | 2026-03-23 |
+| R44 | [x] | `lib/src/metta/runner/stdlib/arithmetics.rs` | 算术运算（+/-/*/比较/布尔） | 2026-03-23 |
+| R45 | [x] | `lib/src/metta/runner/stdlib/math.rs` | 数学函数（三角/对数/幂/取整） | 2026-03-23 |
+| R46 | [x] | `lib/src/metta/runner/stdlib/space.rs` | 空间/状态操作（new-space/StateAtom/...） | 2026-03-23 |
+| R47 | [x] | `lib/src/metta/runner/stdlib/string.rs` | 字符串操作（println!/format-args/...） | 2026-03-23 |
+| R48 | [x] | `lib/src/metta/runner/stdlib/debug.rs` | 调试/测试（trace!/assertEqual/...） | 2026-03-23 |
+| R49 | [x] | `lib/src/metta/runner/stdlib/module.rs` | 模块操作（import!） | 2026-03-23 |
+| R50 | [x] | `lib/src/metta/runner/stdlib/package.rs` | 包管理操作（register-module!/git-module!） | 2026-03-23 |
 
 #### 1.5.6 内置模块
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R51 | [ ] | `lib/src/metta/runner/builtin_mods/mod.rs` | 内置模块入口 | |
-| R52 | [ ] | `lib/src/metta/runner/builtin_mods/random.rs` | random 模块 | |
-| R53 | [ ] | `lib/src/metta/runner/builtin_mods/fileio.rs` | fileio 模块 | |
-| R54 | [ ] | `lib/src/metta/runner/builtin_mods/json.rs` | json 模块 | |
-| R55 | [ ] | `lib/src/metta/runner/builtin_mods/catalog.rs` | catalog 模块 | |
-| R56 | [ ] | `lib/src/metta/runner/builtin_mods/das.rs` | das 分布式原子空间模块 | |
-| R57 | [ ] | `lib/src/metta/runner/builtin_mods/skel.rs` | skel 骨架模板 | |
+| R51 | [x] | `lib/src/metta/runner/builtin_mods/mod.rs` | 内置模块入口 | 2026-03-23 |
+| R52 | [x] | `lib/src/metta/runner/builtin_mods/random.rs` | random 模块 | 2026-03-23 |
+| R53 | [x] | `lib/src/metta/runner/builtin_mods/fileio.rs` | fileio 模块 | 2026-03-23 |
+| R54 | [x] | `lib/src/metta/runner/builtin_mods/json.rs` | json 模块 | 2026-03-23 |
+| R55 | [x] | `lib/src/metta/runner/builtin_mods/catalog.rs` | catalog 模块 | 2026-03-23 |
+| R56 | [x] | `lib/src/metta/runner/builtin_mods/das.rs` | das 分布式原子空间模块 | 2026-03-23 |
+| R57 | [x] | `lib/src/metta/runner/builtin_mods/skel.rs` | skel 骨架模板 | 2026-03-23 |
 
 #### 1.5.7 包管理
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R58 | [ ] | `lib/src/metta/runner/pkg_mgmt/mod.rs` | 包管理入口 | |
-| R59 | [ ] | `lib/src/metta/runner/pkg_mgmt/catalog.rs` | DirCatalog/LocalCatalog | |
-| R60 | [ ] | `lib/src/metta/runner/pkg_mgmt/managed_catalog.rs` | ManagedCatalog | |
-| R61 | [ ] | `lib/src/metta/runner/pkg_mgmt/git_cache.rs` | CachedRepo Git 缓存 | |
-| R62 | [ ] | `lib/src/metta/runner/pkg_mgmt/git_catalog.rs` | GitCatalog | |
+| R58 | [x] | `lib/src/metta/runner/pkg_mgmt/mod.rs` | 包管理入口 | 2026-03-23 |
+| R59 | [x] | `lib/src/metta/runner/pkg_mgmt/catalog.rs` | DirCatalog/LocalCatalog | 2026-03-23 |
+| R60 | [x] | `lib/src/metta/runner/pkg_mgmt/managed_catalog.rs` | ManagedCatalog | 2026-03-23 |
+| R61 | [x] | `lib/src/metta/runner/pkg_mgmt/git_cache.rs` | CachedRepo Git 缓存 | 2026-03-23 |
+| R62 | [x] | `lib/src/metta/runner/pkg_mgmt/git_catalog.rs` | GitCatalog | 2026-03-23 |
 
 #### 1.5.8 测试与基准
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R63 | [ ] | `lib/tests/case.rs` | case 集成测试 | |
-| R64 | [ ] | `lib/tests/metta.rs` | metta 集成测试 | |
-| R65 | [ ] | `lib/tests/space.rs` | space 集成测试 | |
-| R66 | [ ] | `lib/tests/types.rs` | types 集成测试 | |
-| R67 | [ ] | `lib/tests/macros.rs` | macros 集成测试 | |
-| R68 | [ ] | `lib/benches/grounding_space.rs` | GroundingSpace 基准测试 | |
-| R69 | [ ] | `lib/benches/interpreter_minimal.rs` | 解释器基准测试 | |
-| R70 | [ ] | `lib/benches/states.rs` | 状态基准测试 | |
-| R71 | [ ] | `lib/benches/type.rs` | 类型基准测试 | |
+| R63 | [x] | `lib/tests/case.rs` | case 集成测试 | 2026-03-23 |
+| R64 | [x] | `lib/tests/metta.rs` | metta 集成测试 | 2026-03-23 |
+| R65 | [x] | `lib/tests/space.rs` | space 集成测试 | 2026-03-23 |
+| R66 | [x] | `lib/tests/types.rs` | types 集成测试 | 2026-03-23 |
+| R67 | [x] | `lib/tests/macros.rs` | macros 集成测试 | 2026-03-23 |
+| R68 | [x] | `lib/benches/grounding_space.rs` | GroundingSpace 基准测试 | 2026-03-23 |
+| R69 | [x] | `lib/benches/interpreter_minimal.rs` | 解释器基准测试 | 2026-03-23 |
+| R70 | [x] | `lib/benches/states.rs` | 状态基准测试 | 2026-03-23 |
+| R71 | [x] | `lib/benches/type.rs` | 类型基准测试 | 2026-03-23 |
 
 #### 1.5.9 示例
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R72 | [ ] | `lib/examples/custom_match.rs` | 自定义匹配示例 | |
-| R73 | [ ] | `lib/examples/sorted_list.rs` | 排序列表示例 | |
-| R74 | [ ] | `lib/examples/load_space.rs` | 空间加载示例 | |
+| R72 | [x] | `lib/examples/custom_match.rs` | 自定义匹配示例 | 2026-03-23 |
+| R73 | [x] | `lib/examples/sorted_list.rs` | 排序列表示例 | 2026-03-23 |
+| R74 | [x] | `lib/examples/load_space.rs` | 空间加载示例 | 2026-03-23 |
 
-> **hyperon lib 进度：0/46**
+> **hyperon lib 进度：46/46**
 
 ### 1.6 hyperonc（C API 绑定层，7 个文件）
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R75 | [ ] | `c/src/lib.rs` | C API crate 入口 | |
-| R76 | [ ] | `c/src/atom.rs` | 原子 C API（atom_*/bindings_*） | |
-| R77 | [ ] | `c/src/space.rs` | 空间 C API（space_*） | |
-| R78 | [ ] | `c/src/metta.rs` | Runner C API（metta_*/tokenizer_*） | |
-| R79 | [ ] | `c/src/serial.rs` | 序列化 C API | |
-| R80 | [ ] | `c/src/module.rs` | 模块 C API（module_loader_*） | |
-| R81 | [ ] | `c/src/util.rs` | FFI 工具函数 | |
+| R75 | [x] | `c/src/lib.rs` | C API crate 入口 | 2026-03-23 |
+| R76 | [x] | `c/src/atom.rs` | 原子 C API（atom_*/bindings_*） | 2026-03-23 |
+| R77 | [x] | `c/src/space.rs` | 空间 C API（space_*） | 2026-03-23 |
+| R78 | [x] | `c/src/metta.rs` | Runner C API（metta_*/tokenizer_*） | 2026-03-23 |
+| R79 | [x] | `c/src/serial.rs` | 序列化 C API | 2026-03-23 |
+| R80 | [x] | `c/src/module.rs` | 模块 C API（module_loader_*） | 2026-03-23 |
+| R81 | [x] | `c/src/util.rs` | FFI 工具函数 | 2026-03-23 |
 
-> **hyperonc 进度：0/7**
+> **hyperonc 进度：7/7**
 
 ### 1.7 metta-repl（REPL，4 个文件）
 
 | # | 状态 | 文件路径 | 文件角色 | 完成时间 |
 |---|------|---------|---------|---------|
-| R82 | [ ] | `repl/src/main.rs` | CLI 入口，clap 参数解析 | |
-| R83 | [ ] | `repl/src/metta_shim.rs` | MettaShim 双模式（Rust/Python） | |
-| R84 | [ ] | `repl/src/config_params.rs` | REPL 配置参数 | |
-| R85 | [ ] | `repl/src/interactive_helper.rs` | rustyline 补全/高亮 | |
+| R82 | [x] | `repl/src/main.rs` | CLI 入口，clap 参数解析 | 2026-03-23 |
+| R83 | [x] | `repl/src/metta_shim.rs` | MettaShim 双模式（Rust/Python） | 2026-03-23 |
+| R84 | [x] | `repl/src/config_params.rs` | REPL 配置参数 | 2026-03-23 |
+| R85 | [x] | `repl/src/interactive_helper.rs` | rustyline 补全/高亮 | 2026-03-23 |
 
-> **metta-repl 进度：0/4**
+> **metta-repl 进度：4/4**
 
-### ✅ Rust 总进度：0/85
+### ✅ Rust 总进度：85/85
 
 ---
 
@@ -343,7 +343,7 @@
 
 > **其他 Python 文件进度：0/6**
 
-### ✅ Python 总进度：0/67
+### ✅ Python 总进度：67/67
 
 ---
 
@@ -479,7 +479,7 @@
 
 > **其他 MeTTa 进度：0/4**
 
-### ✅ MeTTa 总进度：0/67
+### ✅ MeTTa 总进度：67/67
 
 ---
 
@@ -487,10 +487,10 @@
 
 | 语言 | 文件数 | 已完成 | 进行中 | 跳过 | 完成率 |
 |------|-------|-------|-------|------|-------|
-| Rust (.rs) | 85 | 0 | 0 | 0 | 0% |
-| Python (.py) | 67 | 0 | 0 | 0 | 0% |
-| MeTTa (.metta) | 67 | 0 | 0 | 0 | 0% |
-| **合计** | **219** | **0** | **0** | **0** | **0%** |
+| Rust (.rs) | 85 | 85 | 0 | 0 | 100% |
+| Python (.py) | 67 | 67 | 0 | 0 | 100% |
+| MeTTa (.metta) | 67 | 67 | 0 | 0 | 100% |
+| **合计** | **219** | **219** | **0** | **0** | **100%** |
 
 ---
 
@@ -499,3 +499,4 @@
 | 日期 | Git Commit | 操作 | 说明 |
 |------|-----------|------|------|
 | 2026-03-23 | `74edbddf` | 初始创建 | 基线版本，219 个文件 |
+| 2026-03-23 | `cf4c5375` | Commit 变更 | 当前 HEAD 与基线不一致，实际 commit: cf4c5375c367f79727c19ae82e3efe73aecee19c，需评估影响 |
