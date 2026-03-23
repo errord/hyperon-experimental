@@ -100,6 +100,84 @@ export const sidebarMulti: DefaultTheme.SidebarMulti = {
   ],
   "/metta-lang/": [
     {
+      text: "Semantics",
+      collapsed: true,
+      items: [
+      {
+        text: "MeTTa 基础语法：从文本到 Atom 的全链分析",
+        link: "/metta-lang/semantics/01-basic-syntax"
+      },
+      {
+        text: "MeTTa 函数与等式：Space、`eval`、查询与合一",
+        link: "/metta-lang/semantics/02-functions-equations"
+      },
+      {
+        text: "MeTTa 类型系统：`(:` / `(:<` / `->` / `%Undefined%` / `pragma!`",
+        link: "/metta-lang/semantics/03-type-system"
+      },
+      {
+        text: "最小指令集：全链路实现",
+        link: "/metta-lang/semantics/04-minimal-instructions"
+      },
+      {
+        text: "模式匹配与查询：全链路实现",
+        link: "/metta-lang/semantics/05-pattern-matching"
+      },
+      {
+        text: "非确定性计算：全链路实现",
+        link: "/metta-lang/semantics/06-nondeterminism"
+      },
+      {
+        text: "文档 7：控制流（MeTTa → 解释器 Rust → Python/C 边界）",
+        link: "/metta-lang/semantics/07-control-flow"
+      },
+      {
+        text: "文档 8：空间操作（MeTTa → Rust 算子 → GroundingSpace → Python/C）",
+        link: "/metta-lang/semantics/08-space-operations"
+      },
+      {
+        text: "文档 9：状态管理（`new-state` / `get-state` / `change-state!` / `bind!`）",
+        link: "/metta-lang/semantics/09-state-management"
+      },
+      {
+        text: "文档 10：算术与逻辑运算全链实现",
+        link: "/metta-lang/semantics/10-arithmetic-logic"
+      },
+      {
+        text: "文档 11：数学函数全链实现",
+        link: "/metta-lang/semantics/11-math-functions"
+      },
+      {
+        text: "文档 12：字符串操作全链实现",
+        link: "/metta-lang/semantics/12-string-operations"
+      },
+      {
+        text: "文档 13：原子操作（MeTTa → Python → Rust）",
+        link: "/metta-lang/semantics/13-atom-operations"
+      },
+      {
+        text: "文档 14：模块系统（MeTTa → Python → Rust）",
+        link: "/metta-lang/semantics/14-module-system"
+      },
+      {
+        text: "文档 15：文档系统（@doc / help! / help-space!）",
+        link: "/metta-lang/semantics/15-documentation-system"
+      },
+      {
+        text: "文档 16：调试与测试（MeTTa → Python → Rust）",
+        link: "/metta-lang/semantics/16-debug-testing"
+      },
+      {
+        text: "文档 17：包管理（MeTTa → Python → Rust）",
+        link: "/metta-lang/semantics/17-package-management"
+      },
+      {
+        text: "文档 18：Python 互操作（MeTTa → Python → Rust / C++）",
+        link: "/metta-lang/semantics/18-python-interop"
+      }
+      ]
+    },
+    {
       text: "Tutorial",
       collapsed: true,
       items: [
